@@ -182,6 +182,7 @@ namespace MembershipPortal.Repositories
 
 
 
+
         private decimal reCalculatingDiscount(Subscription oldSubscription, UpdateSubscriptionDTO updateSubscriptionDTO,Discount discount, Product product)
         {
             if (discount == null) {
